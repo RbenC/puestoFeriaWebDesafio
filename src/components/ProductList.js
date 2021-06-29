@@ -13,7 +13,7 @@ export const ProductList = () => {
     const stock = await require('../json/data.json');
     
     const productosDisponibles = stock.filter(item =>  {
-      return item.cantidad > 0
+      return item
     })
     setMisproductos(productosDisponibles);
   }
