@@ -1,70 +1,44 @@
-# Getting Started with Create React App
+# Puesto de Feria Web
+### Descripción
+La familia Santaolalla tiene un puesto en la feria, que vende frutas y verduras.  
+Tiene tantosproductos que se les olvida qué productos tienen, lo que demora la atención a los clientes  
+y a veces ofrecen productos que ya se les han acabado.   
+Por lo que nos piden a nosotros que implementemos una aplicación sencilla que les permita:  
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+1.- vender y agregar productos nuevos,  
+2.- crear una aplicación donde puedan listarlos.
 
-## Available Scripts
+### Requerimientos
+- Crear y limpiar proyecto React (npx create-react-app puestoferia-web)  
+    - Se cambia README.
+    - El proyecto se crea como un proyecto React com Typescript.
+    - Se agrega Bootstrap.
+    - Se eliminan todos los archivos que no se utilizan en el proyecto.
+    - Se elimina CSS que no se utiliza en el proyecto.
+    - Se elimina JSX que no se utiliza en el proyecto
+- Importar productos y mostrarlos en pantalla.  
+    - Cada producto se muestra dentro de un componente Product.
+    - Los productos son iterados dentro de un componente ProductList.
+    - La iteración se hace dentro de un map.
+    - En la iteración se agrega key.
+    - Los productos se importan de un archivo JSON.  
+- Crear componentes y contenedores  
+    - Todos los componentes son TSX.
+    - Separar componentes en containers y componentes.
+    - Nombre de todos los componentes siguen el estándar PascalCase.
+    - Utiliza interfaces para validar datos en los componentes.  
+- Agregar y utilizar css modular  
+    - Utiliza al menos 2 veces CSS modular.  
+    - Utiliza CSS normal.   
+- Configurar con Git/npm el código alojado en Github  
+    - Repositorio en Github con el código, script se ejecuta con `npm run start`,
+    - Proyecto iniciado con Git y npm.
+    
 
-In the project directory, you can run:
+#  Vista preliminar 
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+![Preview](./public/aplicacionweb.png)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+    
 
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
