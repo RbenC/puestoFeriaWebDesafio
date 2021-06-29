@@ -6,7 +6,7 @@ export const PuestoFeriaApp = () => {
         <div>                        
             <h2>
                 <img src='../logo.png' alt='logo' width="80px"/> 
-                Puesto de Feria Santaolalla
+                Frutería Santaolalla
             </h2>
             <hr/>
             <ProductList />
